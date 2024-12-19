@@ -7,6 +7,10 @@ import { IconSymbol } from '@/components/ui/IconSymbol';
 import TabBarBackground from '@/components/ui/TabBarBackground';
 import { Colors } from '@/constants/Colors';
 import { useColorScheme } from '@/hooks/useColorScheme';
+import Entypo from '@expo/vector-icons/Entypo';
+import AntDesign from '@expo/vector-icons/AntDesign';
+import Ionicons from '@expo/vector-icons/Ionicons';
+import Octicons from '@expo/vector-icons/Octicons';
 
 export default function TabLayout() {
   const colorScheme = useColorScheme();
@@ -27,17 +31,38 @@ export default function TabLayout() {
         }),
       }}>
       <Tabs.Screen
-        name="Accueil"
+        name="Acueil"
         options={{
-          title: 'accueil',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
+          title: '',
+          tabBarIcon: ({ color }) => <Entypo name="home" size={24} color="black" />,
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="Search"
         options={{
-          title: 'Explore',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+          title: '',
+          tabBarIcon: ({ color }) => <AntDesign name="search1" size={24} color="black" />,
+        }}
+      />
+       <Tabs.Screen
+        name="AjoutePub"
+        options={{
+          title: '',
+          tabBarIcon: ({ color }) => <Ionicons name="add-circle-outline" size={24} color="black" />,
+        }}
+      />
+      <Tabs.Screen
+        name="Videos"
+        options={{
+          title: '',
+          tabBarIcon: ({ color }) => <Octicons name="video" size={24} color="black" />,
+        }}
+      />
+      <Tabs.Screen
+        name="Profil"
+        options={{
+          title: '',
+          tabBarIcon: ({ color }) => <Ionicons name="person-outline" size={24} color="black" />,
         }}
       />
     </Tabs>
