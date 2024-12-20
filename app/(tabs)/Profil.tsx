@@ -55,10 +55,10 @@ export default function Profil(){
                         </Link>
                         <Link href="/" asChild>
                             <TouchableOpacity className="bg-slate-200 w-40 ">
-                                <Text className="ml-5 mr-5 mt-2 mb-2 font-bold ">Partager le profil</Text>
+                                <Text className="ml-4 mr-5 mt-2 mb-2 font-bold ">Partager le profil</Text>
                             </TouchableOpacity>
                         </Link>
-                        <AntDesign name="up" size={24} color="black" className="bg-slate-200" />
+                        <AntDesign name="up" size={20} color="black" className="bg-slate-200 mt-2" />
                     </View>
                     
                 </View>

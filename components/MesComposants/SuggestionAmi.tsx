@@ -6,11 +6,12 @@ import { Link } from "expo-router";
 
 export default function SuggestionAmi(){
     return(
-        <ScrollView horizontal showsHorizontalScrollIndicator={false} className="mb-8" >
+        <ScrollView horizontal showsHorizontalScrollIndicator={false} className="" >
+         
         {SuggestionAmiData.map((Ami)=>(
          <View key={Ami.id} className="mt-28" >
           <View className="flex-1 mr-2 ml-2">  
-            <Image source={Ami.imag} className="w-28 h-28 rounded-full"></Image>    
+            <Image source={Ami.imag} className="w-28 h-28"></Image>    
           <Text className="text-xl font-black">{Ami.name}</Text>
           <Link href="/" asChild>
             <Pressable
