@@ -19,15 +19,15 @@ export default function Inscription(){
                 </View>
                 <View className="mt-2">
                   <Text>Entrez votre mot de passe</Text>
-                  <TextInput placeholder="password" className="w-96 h-18 border-2 border-gray-300"></TextInput>
+                  <TextInput placeholder="mot de passe" className="w-96 h-18 border-2 border-gray-300"></TextInput>
                 </View>
                 <View className="mt-2">
                   <Text>Entrez votre nom complet</Text>
-                  <TextInput placeholder="password" className="w-96 h-18 border-2 border-gray-300"></TextInput>
+                  <TextInput placeholder="nom complet" className="w-96 h-18 border-2 border-gray-300"></TextInput>
                 </View>
                 <View className="mt-2">
                   <Text>Entrez votre nom de profil</Text>
-                  <TextInput placeholder="password" className="w-96 h-18 border-2 border-gray-300"></TextInput>
+                  <TextInput placeholder="nom de profil" className="w-96 h-18 border-2 border-gray-300"></TextInput>
                 </View>
                 <View className="mt-6 bg-blue-600 h-14 justify-center items-center rounded-lg">
                     <Link href="/Acueil" asChild>
@@ -36,7 +36,11 @@ export default function Inscription(){
                         </TouchableOpacity>
                     </Link>
                 </View>
-                
+                <View className="flex-row items-center justify-center mt-4">
+                    <View style={{ flex: 1, height: 1, backgroundColor: 'black' }} />
+                      <Text className="mx-2">Ou</Text>
+                      <View style={{ flex: 1, height: 1, backgroundColor: 'black' }} />
+                </View>
                 <View className="mt-5 flex-row gap-2">
                   <Text className="text-xl">Vous avez un compte ?</Text>
                   <Link href="/Connexion" asChild>
@@ -45,7 +49,7 @@ export default function Inscription(){
                             </TouchableOpacity>
                     </Link>
                 </View>
-            <Telecharge></Telecharge>
+          
                 
             </View>
         </View>
