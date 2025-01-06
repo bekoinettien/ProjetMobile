@@ -12,6 +12,7 @@ export const PublicationData=
               "likes": 523,
               "comments": 124,
               "author": "Alice Dupont",
+              "imag": require("@/assets/MesImageAmis/1.jpg"),
               "objectf": "Publier"
             },
             {
@@ -23,6 +24,8 @@ export const PublicationData=
               "likes": 821,
               "comments": 230,
               "author": "Lucas Martin",
+              "imag": require("@/assets/MesImageAmis/2.jpg"),
+
               "objectf": "Publier"
             },
             {
@@ -34,6 +37,8 @@ export const PublicationData=
               "likes": 412,
               "comments": 98,
               "author": "Emma Bernard",
+              "imag": require("@/assets/MesImageAmis/3.jpg"),
+
               "objectf": "Publier"
             },
             {
@@ -45,6 +50,8 @@ export const PublicationData=
               "likes": 734,
               "comments": 185,
               "author": "Hugo Leroy",
+              "imag": require("@/assets/MesImageAmis/4.jpg"),
+
               "objectf": "Publier"
             },
             {
@@ -56,6 +63,8 @@ export const PublicationData=
               "likes": 921,
               "comments": 312,
               "author": "Chloe Moreau",
+              "imag": require("@/assets/MesImageAmis/5.jpg"),
+
               "objectf": "Publier"
             },
             {
@@ -67,6 +76,8 @@ export const PublicationData=
               "likes": 390,
               "comments": 87,
               "author": "Nathan Simon",
+              "imag": require("@/assets/MesImageAmis/6.jpg"),
+
               "objectf": "Publier"
             },
             {
@@ -78,6 +89,8 @@ export const PublicationData=
               "likes": 478,
               "comments": 154,
               "author": "Sophia Lefevre",
+              "imag": require("@/assets/MesImageAmis/7.jpg"),
+
               "objectf": "Publier"
             },
             {
@@ -89,6 +102,8 @@ export const PublicationData=
               "likes": 612,
               "comments": 210,
               "author": "Leo Dubois",
+              "imag": require("@/assets/MesImageAmis/8.jpg"),
+
               "objectf": "Publier"
             },
             {
@@ -100,6 +115,8 @@ export const PublicationData=
               "likes": 748,
               "comments": 302,
               "author": "Camille Fontaine",
+              "imag": require("@/assets/MesImageAmis/9.jpg"),
+
               "objectf": "Publier"
             },
             {
@@ -111,6 +128,8 @@ export const PublicationData=
               "likes": 531,
               "comments": 128,
               "author": "Gabriel Rousseau",
+              "imag": require("@/assets/MesImageAmis/10.jpg"),
+
               "objectf": "Publier"
             }
 ]

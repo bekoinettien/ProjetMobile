@@ -9,6 +9,7 @@ import "@/global.css"
     author: string;
     date:string;
     image:any
+    imag:any
     likes:number
     content:string
     comments:number
@@ -17,9 +18,11 @@ import "@/global.css"
 const Publication =({item}: { item: Pubicite }) =>{
     return(
         <View>  
-            <View className="flex-row justify-between ml-5 mr-10 mt-4">
-                <Text className="font-bold">{item.author}</Text>
-                <Text>{item.date}</Text>
+            <View className="flex-row justify-between mt-10 ml-5 ">
+                <Image source={item.imag} className="w-10 h-10 rounded-full"></Image>
+                    <Text className="font-bold mr-10">{item.author}</Text>
+                    <Text className="ml-14">{item.date}</Text>
+                
             </View>
             <View>
                 <Image source={item.image} className="w-96 h-60 mt-4"></Image>

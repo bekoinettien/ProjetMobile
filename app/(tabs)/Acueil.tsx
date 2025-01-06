@@ -22,8 +22,8 @@ export default function Accueil(){
                 <EvilIcons name="sc-telegram" size={28} color="black" />
             </View>
         </View>
-             <ScrollView className="">
-                <ScrollView horizontal showsHorizontalScrollIndicator={false} className="flex-row ml-4 gap-4">
+         <ScrollView className="">
+            <ScrollView horizontal showsHorizontalScrollIndicator={false} className="flex-row ml-4 gap-4">
                 {SuggestionAmiData.map((amie)=>(
                     <View key={amie.id} className="">
                         <View className="flex-1 mr-2 ml-2">
@@ -33,8 +33,8 @@ export default function Accueil(){
                     </View>
                 ))}
                 
-                </ScrollView> 
-                <FlatList data={PublicationData} 
+            </ScrollView> 
+            <FlatList data={PublicationData} 
                     keyExtractor={item => item.id.toString()} 
                     className="ml-6 mr-6"
                     showsHorizontalScrollIndicator={false}
@@ -44,8 +44,8 @@ export default function Accueil(){
                     )
                     
                     }}
-                />
-     </ScrollView>       
+            />
+         </ScrollView>       
             
                 
         
