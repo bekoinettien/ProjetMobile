@@ -5,9 +5,16 @@ import React from "react";
 import Telecharge from "@/components/MesComposants/Telecharge";
 import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
 import Octicons from '@expo/vector-icons/Octicons';
-
+import { useEffect } from "react";
+import { useNavigation } from "@react-navigation/native";
 
 export default function Connexion(){
+
+  const navigation = useNavigation();
+
+  useEffect(() => {
+    navigation.setOptions({ headerShown: false });
+  }, [navigation]);
     return(
         <View  className="items-center  bg-white flex-1">
             <View>
