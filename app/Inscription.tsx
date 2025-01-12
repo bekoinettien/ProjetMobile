@@ -15,19 +15,19 @@ export default function Inscription(){
             <View>
                 <View className="mt-2">
                   <Text>Entrez votre email</Text>
-                  <TextInput placeholder="email" className="w-96 h-18 border-2 border-gray-300"></TextInput>
+                  <TextInput placeholder="email" className="w-96 h-18 rounded-lg border-2 border-gray-300"></TextInput>
                 </View>
                 <View className="mt-2">
                   <Text>Entrez votre mot de passe</Text>
-                  <TextInput placeholder="mot de passe" className="w-96 h-18 border-2 border-gray-300"></TextInput>
+                  <TextInput placeholder="mot de passe" className="w-96 h-18 rounded-lg border-2 border-gray-300"></TextInput>
                 </View>
                 <View className="mt-2">
                   <Text>Entrez votre nom complet</Text>
-                  <TextInput placeholder="nom complet" className="w-96 h-18 border-2 border-gray-300"></TextInput>
+                  <TextInput placeholder="nom complet" className="w-96 h-18 rounded-lg border-2 border-gray-300"></TextInput>
                 </View>
                 <View className="mt-2">
                   <Text>Entrez votre nom de profil</Text>
-                  <TextInput placeholder="nom de profil" className="w-96 h-18 border-2 border-gray-300"></TextInput>
+                  <TextInput placeholder="nom de profil" className="w-96 h-18 rounded-lg border-2 border-gray-300"></TextInput>
                 </View>
                 <View className="mt-6 bg-blue-600 h-14 justify-center items-center rounded-lg">
                     <Link href="/Acueil" asChild>

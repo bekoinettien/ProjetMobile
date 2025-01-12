@@ -9,7 +9,7 @@ export default function VideoPub(){
             {VideoData.map((vid)=>(
                 <View key={vid.id}>
                     <Video source={vid.video}></Video>
-                   
+                    
                 </View>
             ))}
         </ScrollView>
